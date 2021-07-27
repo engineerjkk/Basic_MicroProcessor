@@ -19,6 +19,6 @@ After understanding these two, it is easy to distinguish between Big Endian and 
 
 * The advantages of Little Endian are:
 
-> It’s easy to read the value in a variety of type sizes. For example, the variable A = 0x13 in 64-bit value in memory at the address B will be 1300 0000 0000 0000. A will always be read as 19 regardless of using 8, 16, 32, 64-bit reads. By contrast, in Big Endian we have to know in which size we have written the value to read it correctly.
-> It’s easy to cast the value to a smaller type like from int16_t to int8_t since int8_t is the byte at the beginning of int16_t.
-> Easily to do mathematical computations “because of the 1:1 relationship between address offset and byte number (offset 0 is byte 0), multiple precision math routines are correspondingly easy to write.”
+1. It’s easy to read the value in a variety of type sizes. For example, the variable A = 0x13 in 64-bit value in memory at the address B will be 1300 0000 0000 0000. A will always be read as 19 regardless of using 8, 16, 32, 64-bit reads. By contrast, in Big Endian we have to know in which size we have written the value to read it correctly.
+2. It’s easy to cast the value to a smaller type like from int16_t to int8_t since int8_t is the byte at the beginning of int16_t.
+3. Easily to do mathematical computations “because of the 1:1 relationship between address offset and byte number (offset 0 is byte 0), multiple precision math routines are correspondingly easy to write.”
