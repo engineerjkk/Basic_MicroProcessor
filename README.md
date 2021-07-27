@@ -23,3 +23,20 @@ After understanding these two, it is easy to distinguish between Big Endian and 
 1. It’s easy to read the value in a variety of type sizes. For example, the variable A = 0x13 in 64-bit value in memory at the address B will be 1300 0000 0000 0000. A will always be read as 19 regardless of using 8, 16, 32, 64-bit reads. By contrast, in Big Endian we have to know in which size we have written the value to read it correctly.
 2. It’s easy to cast the value to a smaller type like from int16_t to int8_t since int8_t is the byte at the beginning of int16_t.
 3. Easily to do mathematical computations “because of the 1:1 relationship between address offset and byte number (offset 0 is byte 0), multiple precision math routines are correspondingly easy to write.”
+# 16 & 32 bit instructions
+* 32bit 명령어 사용
+
+# Dual MAC unit
+![image](https://user-images.githubusercontent.com/76835313/127183098-c04178e5-fd81-490d-b3ee-700f0a3f2066.png)
+
+# Zero Overhead Loop
+> A zero overhead loop is a loop whose endpoints are determined by hardware so that no software is required to determine when the loop has ended and must return to the 
+> beginning. Loops are the heart of DSP algorithms and it is because of their importance that DSP hardware supports them.
+
+![image](https://user-images.githubusercontent.com/76835313/127183687-00cb96d9-8873-4abe-a891-38af621c316d.png)
+
+# FPU
+A floating-point unit (FPU, colloquially a math coprocessor) is a part of a computer system specially designed to carry out operations on floating-point numbers.[1] Typical operations are addition, subtraction, multiplication, division, and square root. Some FPUs can also perform various transcendental functions such as exponential or trigonometric calculations, but the accuracy can be very low,[2][3] so that some systems prefer to compute these functions in software.
+
+
+
