@@ -6,6 +6,7 @@
 ## Superscalar architecture 
 ![image](https://user-images.githubusercontent.com/76835313/127180155-1bdc11d5-a4a6-433e-85e4-f7466d97b3ca.png)
 ## Little-endian byte ordering
+[출처](https://uynguyen.github.io/2018/04/30/Big-Endian-vs-Little-Endian/)  
 ![image](https://user-images.githubusercontent.com/76835313/127180543-3e8e12ed-f980-4ee0-bcca-aca5c5712c55.png)
 In computer science, a bit is the smallest piece of information. It represents a digit of the binary numeral system. A string of 8 bits called a byte. There are two ways to store a string of data in computers: Big Endian and Little Endian. If your tasks are working with data in a piece of bytes, you ought to know how to deal with bytes in these two formats. In this post, I will explain how data is stored in computers, what are the main differences between these two, then provide some useful code to work with bytes in Swift and Objective-C.  
 
